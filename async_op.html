@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Async Task Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    button { margin: 5px; padding: 10px; }
+    pre { background: #f0f0f0; padding: 10px; border-radius: 5px; height: 300px; overflow-y: auto; }
+  </style>
+</head>
+<body>
+
+  <h1>Async Task Manager & Status Logger</h1>
+
+  <button onclick="runWithForLoop()">Run with FOR loop</button>
+  <button onclick="runWithForEach()">Run with forEach</button>
+  <button onclick="runWithForOf()">Run with for...of</button>
+  <button onclick="executeTasks()">Run Async/Await Execution</button>
+
+  <pre id="log"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
